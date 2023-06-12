@@ -1,0 +1,50 @@
+/**
+ * @license
+ * Scale https://github.com/telekom/scale
+ *
+ * Copyright (c) 2021 Egor Kirpichev and contributors, Deutsche Telekom AG
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ */
+
+
+scale-telekom-header-data-back-compat .user-menu-mobile {
+  display: block;
+}
+
+scale-telekom-header-data-back-compat .user-menu-desktop {
+  display: none;
+}
+
+scale-telekom-header-data-back-compat .user-menu-desktop scale-menu-flyout {
+  display: flex;
+}
+
+scale-telekom-header-data-back-compat .user-menu-trigger {
+  position: relative;
+  left: 24px;
+}
+
+@media screen and (min-width: 640px) {
+  scale-telekom-header-data-back-compat .user-menu-trigger {
+    top: calc(var(--_spacing-bottom-slotted-bottom) + 8px);
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  scale-telekom-header-data-back-compat .user-menu-mobile {
+    display: none;
+  }
+
+  scale-telekom-header-data-back-compat .user-menu-desktop {
+    display: block;
+  }
+}
+
+dia screen and (--xl) {
+  scale-telekom-header-data-back-compat .user-menu-trigger {
+    top: calc(var(--_spacing-bottom-slotted-bottom) + 12px);
+  }
+}

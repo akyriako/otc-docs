@@ -1,0 +1,6 @@
+{
+  "name": "@telekom/scale-components/hydrate",
+  "description": "ScaleComponents component hydration app.",
+  "main": "index.js",
+  "types": "index.d.ts"
+}
