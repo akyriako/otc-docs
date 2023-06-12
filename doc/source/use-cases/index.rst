@@ -8,7 +8,6 @@ they are not covered directly by the `Service description
 <https://open-telekom-cloud.com/service-description>`_, they are tested and
 validated recommendations from our experts.
 
-
 .. toctree::
    :maxdepth: 1
 

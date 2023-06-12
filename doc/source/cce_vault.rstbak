@@ -1,6 +1,6 @@
-===============================================
+=========================================================
 Secrets management with CCE and Hashicorp Vault
-===============================================
+=========================================================
 
 Most modern IT setups are composed of several subsystems like databases, object
 stores, master controller, node access, and more. To access one component from
@@ -40,7 +40,7 @@ Agent is configured to use password-less access to Vault. Further in the
 document it is explained how exactly this is implemented.
 
 Establishing trust between CCE and Vault
-========================================
+=========================================
 
 Before any application managed by the CCE is able to login to Vault relying on
 infrastructure based authentication it is required to do some steps on the

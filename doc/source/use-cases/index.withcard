@@ -1,0 +1,72 @@
+By Use Case
+==========
+
+Users sometimes identify use cases that can be solved in a standardized way to
+save research time and effort. Blueprints are a series of best practices,
+curated by the Open Telekom Cloud engineering and architecture teams. While
+they are not covered directly by the `Service description
+<https://open-telekom-cloud.com/service-description>`_, they are tested and
+validated recommendations from our experts.
+
+.. toctree::
+   :maxdepth: 1
+
+   hybrid/index.rst
+   security/index.rst
+   networking/index.rst
+   migration/index.rst
+   analytics/index.rst
+
+.. raw:: html
+
+    <div style="display: flex">
+      <scale-card to="https://example.com" target="_self" style="width: 280px; height: 280px; margin-right: 5px">
+        <div style="margin: -24px;">
+          <img
+            style="margin-bottom: -4px; width:100%;"
+            src="https://open-telekom-cloud.com/_Resources/Static/Packages/App.Site/Images/fallback-open-graph.png"
+            alt="placeholder"
+          />
+          <div style="padding: 24px;">Hybrid</div>
+        </div>
+      </scale-card>
+      <scale-card to="https://example.com" target="_blank" style="width: 280px; height: 280px; margin-right: 5px">
+        <div style="margin: -24px;">
+          <img
+            style="margin-bottom: -4px; width:100%;"
+            src="https://open-telekom-cloud.com/_Resources/Static/Packages/App.Site/Images/fallback-open-graph.png"
+            alt="placeholder"
+          />
+          <div style="padding: 24px;">Security & Compliance</div>
+        </div>
+      </scale-card>
+      <scale-card to="https://example.com" target="_blank" style="width: 280px; height: 280px; margin-right: 5px">
+        <div style="margin: -24px;">
+          <img
+            style="margin-bottom: -4px; width:100%;"
+            src="https://open-telekom-cloud.com/_Resources/Static/Packages/App.Site/Images/fallback-open-graph.png"
+            alt="placeholder"
+          />
+          <div style="padding: 24px;">Networking</div>
+        </div>
+      </scale-card>
+      <scale-card to="https://example.com" target="_blank" style="width: 280px; height: 280px; margin-right: 5px">
+        <div style="margin: -24px;">
+          <img
+            style="margin-bottom: -4px; width:100%;"
+            src="https://open-telekom-cloud.com/_Resources/Static/Packages/App.Site/Images/fallback-open-graph.png"
+            alt="placeholder"
+          />
+          <div style="padding: 24px;">Migration</div>
+        </div>
+      </scale-card>
+      <scale-card to="https://example.com" target="_blank" style="width: 280px; height: 280px; margin-right: 5px">
+        <div style="margin: -24px;">
+          <img
+            style="margin-bottom: -4px; width:100%;"
+            src="https://open-telekom-cloud.com/_Resources/Static/Packages/App.Site/Images/fallback-open-graph.png"
+            alt="placeholder"
+          />
+          <div style="padding: 24px;">Data Analytics & AI</div>
+      </scale-card>
+    </div>

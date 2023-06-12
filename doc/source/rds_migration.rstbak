@@ -1,6 +1,6 @@
-===========================================================================
+=============================================================================
 Migrate a MySQL/MariaDB database to Open Telekom Cloud RDS with Apache NiFi
-===========================================================================
+=============================================================================
 
 `Apache NiFi <https://nifi.apache.org/>`__ (**nye-fye**) is a project from the Apache Software Foundation aiming
 to automate the flow of data between systems in form of workflows. It supports powerful and scalable directed graphs
@@ -44,7 +44,7 @@ demanding use-case, as the migration of an MySQL or MariaDB to the cloud, to a f
    `Apache Nifi Workflow Template <https://www.youtube.com/watch?v=PzBNkObWUXc>`_
 
 Provision a MySQL instance in RDS
-=================================
+==================================
 
 If you don't have an RDS instance in place, let's create one in order to demonstrace this use-case.
 Under Relational Database Service in  Open Telekom Cloud Console,
@@ -74,7 +74,7 @@ as Security Group of the ECS instances of your database (still in the database c
     It's not recommended transfering production data without having SSL enalbed
 
 Provision an Apache Nifi Server
-==============================
+================================
 
 We are going to deploy the Apache NiFi server as a **docker container** using the following command
 (replace first the required credentials with the ones of your choice):
@@ -99,7 +99,7 @@ enter your credentials and you will land on an empty workflow canvas:
 .. figure:: https://architecture-center-poc-images.obs.eu-de.otc.t-systems.com/rds-migration/SCR-20220810-lt4.png
 
 Create the migration workflow
-============================
+=============================
 
 1. Add a **Processor** of type **GenerateFlowFile**, as the entry point of our workflow (as is instructed in the following picture):
 
@@ -223,7 +223,7 @@ In order to start them press, for every single one of them — except LogAttribu
 .. figure:: https://architecture-center-poc-images.obs.eu-de.otc.t-systems.com/rds-migration/SCR-20220812-e7c.png
 
 Configure the Apache Nifi Server
-==============================
+================================
 
 At this point we are not ready yet to run our workflow. The Apache Nifi server is lacking two additional resources.
 The two ExecuteStreamCommand Processors will execute an export and import from and to remote MySQL instances using
