@@ -1,18 +1,18 @@
 Cloud Adoption Blueprint
 ==========================
 
-The adoption blueprint specifies the cloud migration strategy, scope,
+The adoption blueprint specifies the Cloud migration strategy, scope,
 and objectives of key capability development:
 
 Cloud migration strategy
 ************************
 
--  To determine the cloud deployment model: public cloud or hybrid
-   cloud. Public cloud is more suitable for agile services and optimized
+-  Determine the cloud deployment model: **public cloud or hybrid
+   cloud**. Public cloud is more suitable for agile services and optimized
    costs. Hybrid cloud is a good choice for ensuring low service latency
    and enhanced security.
 
--  To define a single-cloud or multi-cloud strategy. A single-cloud
+-  Define a **single-cloud or multi-cloud** strategy. A single-cloud
    strategy helps build leading capabilities while a multi-cloud
    strategy allows you to leverage the best capabilities of different
    cloud providers.
@@ -35,32 +35,32 @@ Complete the blueprint for cloud migration by layer and module in terms
 of IaaS, PaaS, application enablement, application or SaaS, cloud
 reliability, cloud security, cloud O&M, and cloud operations, including:
 
--  Cloud infrastructure: public cloud and hybrid cloud, multi-cloud
+-  **Cloud infrastructure:** public cloud and hybrid cloud, multi-cloud
    management, multi-architecture computing, big data storage and
    computing, high-performance computing.
 
--  Data lake: data lake house, flexible import to the lake, data
+-  **Data lake:** data lake house, flexible import to the lake, data
    governance, data security, real-time self-service analysis, and
    intelligent data application...
 
--  Enabling platforms: AI, video, communications, IoT, blockchain, and
+-  **Enabling platforms:** AI, video, communications, IoT, blockchain, and
    related technologies
 
--  Application migration to the cloud: cloud migration scope and
+-  **Application migration to the cloud:** cloud migration scope and
    capability objectives
 
--  Application innovation (optional): cloud-native applications,
+-  **Application innovation (optional):** cloud-native applications,
    DevCloud, and industry cloud
 
--  Cloud reliability: DR, HA, and related capabilities
+-  **Cloud reliability:** DR, HA, and related capabilities
 
--  Cloud security: security system for network, host, application and
+-  **Cloud security:** security system for network, host, application and
    data, operations security, ecosystem security, and industry security
    certification
 
--  Cloud O&M: resource management, cloud monitoring
+-  **Cloud O&M:** resource management, cloud monitoring
 
--  Cloud operations: operations platform, organization, and processes
+-  **Cloud operations:** operations platform, organization, and processes
 
 A detailed cloud adoption blueprint is designed and planned based on the
 current situation of the governments and enterprises. The following

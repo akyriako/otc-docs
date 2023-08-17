@@ -1,14 +1,13 @@
 Gap Analysis
 ============
 
-Before formulating the cloud migration strategy, review the current
-accounts, special requirements, key issues and challenges of the current
-IT systems. Identify new possible requirements for future service
-evolution. And then define the key cloud adoption objectives as
-required.
+Before formulating your Cloud migration strategy:
 
-To get a complete analysis, refer to the following cloud
-maturity assessment model:
+-  Review the current accounts, special requirements, key issues and challenges of the current IT systems.
+-  Identify new possible requirements for future service evolution.
+-  Define the key cloud adoption objectives as required.
+
+To get a complete analysis, refer to the following **Cloud Maturity Assessment Model**:
 
 .. image:: ../../assets/caf/image6.png
 
@@ -20,19 +19,19 @@ Infrastructure analysis
 -  Infrastructure resources and configurations, including servers,
    storage types, basic configurations, resource quantities and usages,
    lifecycle configurations, virtualization technologies,
-   containerization, and application distribution
+   containerization, and application distribution.
 
 -  Special requirements for performance, security, or operating system
-   or hardware dependencies
+   or hardware dependencies.
 
--  Key challenges, such as low availability and complicated maintenance
+-  Key challenges, such as low availability and complicated maintenance.
 
 Technical platform analysis
 ***************************
 
 -  Basic platform details, such as the amount, scale, and usage of
    middleware, database, data warehouse, big data, and development and
-   test platforms
+   test platforms.
 
 -  Special requirements and key challenges. For example, middleware and
    big data are developed based on open source software, which often has

@@ -106,7 +106,7 @@ IT transformation
 Currently, IT systems are faced with three difficulties:
 
 -  Low IT resource utilization, high costs, and complex maintenance and
-   lifecycle management: Service units and departments use different
+   lifecycle management. Service units and departments use different
    data centers deployed with various types of servers and storage
    devices, and applications are bound to servers.
 
@@ -123,7 +123,7 @@ Currently, IT systems are faced with three difficulties:
    efficiency, and build IT support capabilities for future industry
    competition.
 
--  IT organization transformation
+-  IT organization transformation.
    Currently, IT departments are often positioned in support positions,
    passively supporting business development. However, as the digital
    transformation of the governments and enterprises deepens, IT and
@@ -138,7 +138,7 @@ Data intelligence and data security
 **********************************
 
 Data has become a new production factor together with traditional
-factors such as land, labors, capitals, and technology.
+factors such as land, labor, capital, and technology.
 
 -  In the government sector, data-driven government services and
    government governance collaboration across departments help with
