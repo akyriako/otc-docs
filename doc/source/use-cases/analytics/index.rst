@@ -13,3 +13,7 @@ validated recommendations from our experts.
    :maxdepth: 1
 
    cce_vault.rst
+   test.rst
+   article_external.rst
+   article_internal.rst
+   solution.rst

@@ -18,3 +18,4 @@ validated recommendations from our experts.
    industry/index.rst
    best-practices/index.rst
    marketplace/index.rst
+   caf/index.rst
