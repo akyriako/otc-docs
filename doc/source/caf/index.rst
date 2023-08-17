@@ -21,7 +21,11 @@ Clarify the motivation for cloud adoption at the management level. It aims to de
 Phase 2: Ready
 ++++++++++++++
 
-Build Landing Zone and design cloud architecture in preparation for the cloud adoption. Landing Zone is used for unified management and governance of people, finances, resources, permission, and security compliance of multiple business units. The cloud architecture may include IaaS, PaaS and SaaS capabilities, cloud management, and O&M capabilities, providing features such as high availability, robust scalability, security compliance, and cost-effectiveness.
+Build a Landing Zone and design the cloud architecture in preparation for the cloud adoption.
+Landing Zone is used for unified management and governance of people, finances, resources, permission, and security compliance of multiple business units.
+The cloud architecture may include IaaS, PaaS and SaaS capabilities, cloud management,
+and O&M capabilities, providing features such as high availability, robust scalability, security compliance,
+and cost-effectiveness.
 
 Phase 3: Adopt
 ++++++++++++++

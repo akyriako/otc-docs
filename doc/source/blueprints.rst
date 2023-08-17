@@ -1,5 +1,5 @@
-Open Telekom Cloud Architecture Center
-======================================
+Blueprints
+==========
 
 Users sometimes identify use cases that can be solved in a standardized way to
 save research time and effort. Blueprints are a series of best practices,
@@ -14,5 +14,7 @@ validated recommendations from our experts.
    :maxdepth: 1
    :hidden:
 
-   caf/index.rst
-   blueprints.rst
+   use-cases/index.rst
+   industry/index.rst
+   best-practices/index.rst
+   marketplace/index.rst
