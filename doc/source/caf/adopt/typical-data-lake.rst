@@ -23,7 +23,7 @@ characteristics:
    multiple business systems and provides full-stack technical
    capabilities.
 
--  Cost-effective data analytics foundation: Huawei Cloud
+-  Cost-effective data analytics foundation: Open Telekom Cloud
    high-performance GaussDB(DWS) service and data synchronization
    solution can be used to analyze massive amounts of data quickly to
    unleash data value.
@@ -32,7 +32,7 @@ characteristics:
    easy-to-use, flexible, and efficient development, management, and
    scheduling of data ETL tasks.
 
--  Mature and reliable BI tools: Huawei Cloud cooperates with top BI
+-  Mature and reliable BI tools: Open Telekom Cloud cooperates with top BI
    vendors to provide mature, reliable, flexible, and efficient
    visualized BI tools, making operational analysis much easier and
    accelerating value monetization.
@@ -88,30 +88,27 @@ in the data lake.
    time. By default, DRS can dump data to CSS and OBS (low priority) in
    real time for real-time search and AI training. CDL establishes a
    link to DLI. DLI and MRS share CDL's capability to import data to the
-   data lake.
-
-CDL has embedded Spark scripts. You can import data directly to Hudi or
-ClickHouse without writing SQL scripts.
+   data lake. CDL has embedded Spark scripts. You can import data directly to Hudi or
+   ClickHouse without writing SQL scripts.
 
 2. CDC imports data to the data lake through DRS and Kafka.
-
-DIS/DMS provides a standard Kafka message pipe for big data services
-such as MRS and DLI. DIS must support standard Kafka APIs.
+   DIS/DMS provides a standard Kafka message pipe for big data services
+   such as MRS and DLI. DIS must support standard Kafka APIs.
 
 3. The database CDC imports data to GaussDB(DWS) in real time through
    DRS and Kafka.
 
--  Direct import: This mode applies to scenarios where less than or
-   equal to 3,000 lines of data need to be synchronized per second. DRS
-   parses the real-time incremental data in the source database and
-   directly writes it to GaussDB(DWS).
+   -  Direct import: This mode applies to scenarios where less than or
+      equal to 3,000 lines of data need to be synchronized per second. DRS
+      parses the real-time incremental data in the source database and
+      directly writes it to GaussDB(DWS).
 
--  Import through a buffer: This mode applies to scenarios where more
-   than 3,000 lines of data need to be synchronized per second. DRS
-   obtains real-time incremental data from the source database and
-   pushes the data to the backend Kafka message cluster. Then the
-   built-in GDS-kafka Connector of GaussDB(DWS) writes the data to
-   GaussDB(DWS) tables.
+   -  Import through a buffer: This mode applies to scenarios where more
+      than 3,000 lines of data need to be synchronized per second. DRS
+      obtains real-time incremental data from the source database and
+      pushes the data to the backend Kafka message cluster. Then the
+      built-in GDS-kafka Connector of GaussDB(DWS) writes the data to
+      GaussDB(DWS) tables.
 
 Real-Time Import of Messages and Logs to a Data Lake
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

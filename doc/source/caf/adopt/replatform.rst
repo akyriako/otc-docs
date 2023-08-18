@@ -4,15 +4,17 @@ Replatform
 Replatforming involves upgrading an application from it's existing
 legacy platform to a more modern cloud platform. It means replacing
 traditional application components (such as databases and middleware)
-with Huawei Cloud services, but without changing the core architecture
-of applications. For example, you can replace relational databases with
-cloud database services from Huawei Cloud, replace self-built message
-middleware with message queue services provided by Huawei Cloud, and
+with Open Telekom Cloud services, but without changing the core architecture
+of applications.
+
+For example, you can replace relational databases with
+cloud database services from Open Telekom Cloud, replace self-built message
+middleware with message queue services provided by Open Telekom Cloud, and
 replace self-built cache databases with cache database services on
-Huawei Cloud. This makes management less expensive and makes
+Open Telekom Cloud. This makes management less expensive and makes
 applications more efficient and scalable.
 
-Huawei Cloud provides the following solutions to migrate customers'
+Open Telekom Cloud provides the following solutions to migrate customers'
 self-built databases and middleware or those on third-party cloud
 platforms:
 
@@ -20,30 +22,30 @@ platforms:
 | Ob   | Type | Sou | Target     | Migration      | Pros and Cons     |
 | ject |      | rce |            | Method         |                   |
 +======+======+=====+============+================+===================+
-| Data | SQL  | S   | Huawei     | Data           | The target is     |
+| Data | SQL  | S   | OTC        | Data           | The target is     |
 | base | Se   | elf | Cloud RDS  | Replication    | RDS, and the      |
 |      | rver | -bu | for SQL    | Service        | downtime is a few |
-|      |      | ilt | Server     | (Huawei Cloud) | minutes.          |
+|      |      | ilt | Server     | (OTC Cloud)    | minutes.          |
 |      |      | /DB |            |                |                   |
 |      |      | aaS |            |                |                   |
 +------+------+-----+------------+----------------+-------------------+
-|      | M    |     | Huawei     | Data           | The target is     |
+|      | M    |     | OTC        | Data           | The target is     |
 |      | ySQL |     | Cloud RDS  | Replication    | RDS, and the      |
 |      |      |     | for MySQL  | Service        | downtime is a few |
-|      |      |     |            | (Huawei Cloud) | minutes.          |
+|      |      |     |            | (OTC Cloud)    | minutes.          |
 +------+------+-----+------------+----------------+-------------------+
-|      | Po   |     | Huawei     | Data           | The target is     |
+|      | Po   |     | OTC        | Data           | The target is     |
 |      | stgr |     | Cloud RDS  | Replication    | RDS, and the      |
 |      | eSQL |     | for        | Service        | downtime is a few |
-|      |      |     | PostgreSQL | (Huawei Cloud) | minutes.          |
+|      |      |     | PostgreSQL | (OTC Cloud)    | minutes.          |
 +------+------+-----+------------+----------------+-------------------+
-|      | Mon  |     | Huawei     | Data           | The target is     |
+|      | Mon  |     | OTC        | Data           | The target is     |
 |      | goDB |     | Cloud      | Replication    | RDS, and the      |
 |      |      |     | Document   | Service        | downtime is a few |
-|      |      |     | Database   | (Huawei Cloud) | minutes.          |
+|      |      |     | Database   | (OTC Cloud)    | minutes.          |
 |      |      |     | Service    |                |                   |
 +------+------+-----+------------+----------------+-------------------+
-| Mi   | R    | S   | Huawei     | DCS-Migration  | The target is     |
+| Mi   | R    | S   | OTC        | DCS-Migration  | The target is     |
 | ddle | edis | elf | Cloud      |                | DCS.              |
 | ware |      | -bu | D          |                |                   |
 |      |      | ilt | istributed |                |                   |
@@ -53,7 +55,7 @@ platforms:
 |      |      | rvi | Redis      |                |                   |
 |      |      | ces |            |                |                   |
 +------+------+-----+------------+----------------+-------------------+
-|      |      | S   | Huawei     | Redis-port     | Offline export    |
+|      |      | S   | OTC        | Redis-port     | Offline export    |
 |      |      | elf | Cloud      |                | and import        |
 |      |      | -bu | D          |                |                   |
 |      |      | ilt | istributed |                |                   |
@@ -63,7 +65,7 @@ platforms:
 |      |      | rvi |            |                |                   |
 |      |      | ces |            |                |                   |
 +------+------+-----+------------+----------------+-------------------+
-|      | K    | S   | Huawei     | MirrorMaker    | Only data in      |
+|      | K    | S   | OTC        | MirrorMaker    | Only data in      |
 |      | afka | elf | Cloud      |                | Kafka clusters    |
 |      |      | -bu | D          |                | can be            |
 |      |      | ilt | istributed |                | synchronized.     |
@@ -73,7 +75,7 @@ platforms:
 |      |      |     | Kafka      |                | be synchronized.  |
 +------+------+-----+------------+----------------+-------------------+
 
-Consider the following typical architecture. A company uses Kafka
+Consider the following typical architecture: A company uses Kafka
 message middleware to mask performance inconsistencies between front-
 and back-end applications. The applications get decoupled. They use a
 Redis database cache for hot data and MySQL databases for core service
@@ -84,7 +86,7 @@ inefficient, O&M expensive, and capacity expansion difficult.
 
 .. image:: ../../assets/caf/image46.png
 
-Huawei Cloud provides cloud services that let companies deploy
+Open Telekom Cloud provides cloud services that let companies deploy
 middleware and database components on the cloud. These services simplify
 middleware and database deployment and O&M. Companies can enjoy the
 following benefits:

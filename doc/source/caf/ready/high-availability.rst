@@ -7,10 +7,12 @@ Availability Definition
 Availability refers to the ability of a product or service to perform a
 specified function under specified conditions at a specified time or
 within a specified period of time. It is a measure of the reliability
-and maintainability of the product. Service availability is generally
+and maintainability of the product.
+
+Service availability is generally
 measured by the SLA. Each type of cloud service provides services based
 on their SLA commitment. The following table lists the downtimes
-acceptable for different SLA commitments.
+acceptable for different SLA commitments:
 
 +---------+-------------------+--------------------+------------------+
 | SLA     | Weekly Downtime   | Monthly Downtime   | Yearly Downtime  |
@@ -29,11 +31,11 @@ acceptable for different SLA commitments.
 High Availability Solutions
 ---------------------------
 
-Most Huawei Cloud services have HA deployment options available. They
+Most Open Telekom Cloud services have HA deployment options available. They
 provide you with HA capabilities at multiple layers, including data
-centers, hardware, data, and self-service. Huawei cloud data centers are
-deployed around the globe to meet resource requirements for different
-regions. Each region is divided into multiple availability zones (AZs).
+centers, hardware, data, and self-service. Open Telekom Cloud data centers are
+deployed in Germany, Netherlands and Switzerland to meet resource requirements
+for different regions. Each region is divided into multiple availability zones (AZs).
 Each AZ has independent cooling, fire extinguishing, moisture-control,
 and electrical facilities, and the failure of one AZ does not affect
 other AZs. There are four types of HA deployments:
@@ -49,7 +51,7 @@ other AZs. There are four types of HA deployments:
    availability, you can deploy services in multiple equipment rooms in
    the same city. This way, service continuity is guaranteed even if the
    network, physical device, or power supply of one equipment room
-   fails. Huawei Cloud users can deploy services across AZs. AZs are
+   fails. Open Telekom Cloud users can deploy services across AZs. AZs are
    isolated from each other, so if one AZ fails, you can switch services
    to another AZ to quickly recover services. Most cloud service
    products have corresponding capabilities. Select your desired
@@ -64,14 +66,18 @@ other AZs. There are four types of HA deployments:
    you are protected even in the event of a regional disaster.
 
 -  **Cross-cloud HA**: To meet the requirements for multi-cloud HA of
-   some enterprises, Huawei Cloud also supports multi-cloud DR
+   some enterprises, Open Telekom Cloud also supports multi-cloud DR
    deployment. Enterprises can deploy production services on Huawei
    Cloud and deploy the DR site on a cloud vendor platform.
+
+.. todo::
+   review the above, especially the last whether is feasible in OTC
 
 Single-AZ HA Solution Design
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
--  Solution description
+Solution description and key points of the design:
+
 -  Layered service deployment: web access layer, service layer, data
    layer, and management zone
 -  Service HA: No single-node deployment, HA deployment (in cluster or
@@ -85,7 +91,7 @@ nodes, applications are deployed in clusters or active/standby mode.
 This may be a more expensive option, but it significantly improves
 availability.
 
--  Key points of the HA design
+Key points of the HA design:
 
 +--------+-------------------------------------------------------------+
 | Item   | HA Design Focuses                                           |
@@ -163,7 +169,8 @@ Solution description and key points of the design:
 Two-Site Three-Center (Cross-Region) HA Solution Design
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
--  Solution description and key points of the design:
+Solution description and key points of the design:
+
 -  The production centers and DR center are deployed in two different
    regions of Huawei Cloud.
 -  The production centers are deployed in two AZs, and the DR center is
@@ -185,17 +192,16 @@ Two-Site Three-Center (Cross-Region) HA Solution Design
 
 .. image:: ../../assets/caf/image38.png
 
--  Solution highlights:
+.. note::
+    -  This solution provides the highest possible service continuity and
+       data availability. Data and services can be protected even in the
+       event of regional disasters.
 
--  This solution provides the highest possible service continuity and
-   data availability. Data and services can be protected even in the
-   event of regional disasters.
-
--  The RPO it determined by the database replication interval. Servers
-   at the DR center are always running, so an RTO of almost zero can be
-   achieved. The time needed to complete a DR switchover depends on how
-   long the DNS cache takes to update. It usually takes a few minutes
-   and can be faster if GSLB is used.
+    -  The RPO it determined by the database replication interval. Servers
+       at the DR center are always running, so an RTO of almost zero can be
+       achieved. The time needed to complete a DR switchover depends on how
+       long the DNS cache takes to update. It usually takes a few minutes
+       and can be faster if GSLB is used.
 
 Establishing HA DR capabilities is a complex project that includes
 ingress traffic control, service layer reconstruction, middleware and

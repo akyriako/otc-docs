@@ -7,7 +7,7 @@ environment of applications. It is usually used for Physical to Virtual
 (P2V) and Virtual to Virtual (V2V) scenarios. It can help companies
 quickly migrate applications such as SAP, ERP, and CRM to the cloud.
 
-Huawei Cloud provides three rehosting solutions:
+Open Telekom Cloud provides three rehosting solutions:
 
 Application redeployment
 ************************
@@ -64,12 +64,12 @@ Rehost has the following benefits:
 -  The application architecture is consistent before and after the
    migration, so you know the original technology stack still work.
    Rehosting ensures the migration of your applications can go smoothly.
--  If the databases were built using Huawei Cloud ECS, the database
+-  If the databases were built using Open Telekom Cloud ECS, the database
    licenses can be reused in commercial database scenarios to save
    money.
 -  Applications are deployed across AZs, so you can configure DC-level
    HA.
--  With Huawei Cloud ELB and Auto Scaling, services can be flexibly
+-  With Open Telekom Cloud ELB and Auto Scaling, services can be flexibly
    scaled to adapt to workload changes.
 -  ELB replaces traditional offline hardware load balancing devices and
    the network ACLs replace traditional hardware firewalls, further

@@ -1,9 +1,6 @@
 Cloud Architecture Design
 -------------------------
 
-Architecture Design Objectives and Principles
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 The most important objective of architecture design is to ensure the
 continuous availability of the system along with the development of
 enterprise services. Architecture design mainly includes the design of

@@ -7,7 +7,7 @@ be considered as it is vital to high performance. In addition, solution
 selection, performance measurement, performance monitoring, and
 performance trade-off must also be considered.
 
-Factors affect the performance of cloud applications
+Factors that affect the performance of cloud applications
 ****************************************************
 
 -  Compute latency: the wait time between operations and a direct reflection of cloud computing performance

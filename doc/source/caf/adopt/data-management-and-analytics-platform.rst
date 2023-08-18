@@ -26,7 +26,7 @@ cloud provides diverse high-performance, scalable, and reliable
 analytics engines and huge economies of scale, making data lakes more
 cost-effective and scalable.
 
-Huawei Cloud's next-generation data lakes are built on Object Storage
+Open Telekom Cloud's next-generation data lakes are built on Object Storage
 Service (OBS) and feature storage-compute decoupling. This means that
 compute and storage resources can be scaled separately, preventing
 unbalanced allocation of computing and storage resources on a single
@@ -84,7 +84,7 @@ based on application scenarios. Real-time marts are used together with
 Kafka and Flink. A typical case in point is the mart for querying bank
 transactions.
 
-Huawei Cloud FusionInsight Intelligent Data Lake
+Open Telekom Cloud FusionInsight Intelligent Data Lake
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This next-generation data lake takes full advantage of cloud-native
@@ -99,18 +99,18 @@ them to devote more resources to data analysis and business.
 
 FusionInsight provides extensive analytics services that adapt to all
 types of data analysis scenarios and enable organizations of all sizes
-and industries to reshape their business. Huawei Cloud provides
+and industries to reshape their business. Open Telekom Cloud provides
 cost-effective and scalable dedicated services throughout data
 collection, data management, data storage, data analysis, log analysis,
 stream analysis, and machine learning (ML).
 
--  First of all, if you want to use a big data platform for data
-   processing, you must integrate your data into the big data platform.
-   You can use different data integration tools based on the data type.
-   For example, you can use Data Ingestion Service (DIS) to import data
-   in real time, use Cloud Data Migration (CDM) to move massive amounts
-   of on-premises data to Huawei Cloud, and use Data Replication Service
-   (DRS) to migrate databases.
+If you want to use a big data platform for data
+processing, you must integrate your data into the big data platform.
+You can use different data integration tools based on the data type.
+For example, you can use Data Ingestion Service (DIS) to import data
+in real time, use Cloud Data Migration (CDM) to move massive amounts
+of on-premises data to Open Telekom Cloud, and use Data Replication Service
+(DRS) to migrate databases.
 
 DIS enables you to easily collect, process, and distribute real-time
 streaming data so that you can quickly respond to new information. DIS
@@ -124,7 +124,9 @@ https://www.huaweicloud.com/intl/en-us/product/dis.html.
 For details about CDM and DRS, see section "‎4.2.4.4 Big Data Migration
 Tools".
 
--  It is recommended that you store the data migrated to the cloud in
+.. tip::
+
+   It is recommended that you store the data migrated to the cloud in
    OBS. If the data is small in size and needs to be processed in a
    timely manner, you can also store it in HDFS.
 
@@ -133,54 +135,12 @@ and low-cost data storage with an unlimited capacity. OBS provides
 various storage types to meet customer requirements. For details, visit
 https://www.huaweicloud.com/intl/en-us/product/obs.html.
 
--  As for data computing, we provide different components for different
-   scenarios. You can use Cloud Stream Service (CS) for stream
-   processing, MapReduce Service (MRS) or Data Lake Insight (DLI) for
-   offline batch processing, CloudTable for real-time query,
-   GaussDB(DWS) for interactive analysis or BI analysis, and Cloud
-   Search Service (CSS) for search.
-
-MRS provides high-performance big data components of the Hadoop
-ecosystem, such as Hudi, ClickHouse, Spark, Flink, Kafka, and HBase, and
-supports data lakes, data warehouses, BI, and AI convergence. MRS is
-available in both the hybrid cloud and public cloud. In the hybrid
-cloud, MRS provides offline, real-time, and logical data lakes in a
-cloud-native architecture to facilitate your intelligent upgrade. In the
-public cloud, MRS helps you quickly build a cost-effective, flexible,
-open, and reliable one-stop big data platform. For details, visit
-https://www.huaweicloud.com/intl/en-us/product/mrs.html.
-
-GaussDB(DWS) is a fully-managed and enterprise-class cloud data
-warehouse service. It is O&M-free and compatible with the PostgreSQL
-ecosystem, and supports online cluster scale-out and efficient loading
-of multiple data sources. It helps enterprises efficiently and
-cost-effectively analyze massive amounts of data online and quickly
-monetize data. For details, visit
-https://www.huaweicloud.com/intl/en-us/product/dws.html.
-
-DLI is a Serverless data processing and analysis service fully
-compatible with Apache Spark, Apache Flink, and openLooKeng (based on
-Presto) ecosystems. Enterprises can use standard SQL, Spark, and Flink
-programs to jointly compute and analyze multiple data sources and
-explore their value. For details, visit
-https://www.huaweicloud.com/intl/en-us/product/dli.html.
-
-CSS is an online distributed search service powered by the open-source
-Elasticsearch. It provides multi-condition search, statistics, and
-reports for structured and unstructured text, and is compatible with
-native APIs of Elasticsearch. With CSS, you can build search boxes for
-websites and apps to improve document and video search experience. You
-can also build a platform to monitor and analyze O&M logs and analyze
-operational data. For details, visit
-https://www.huaweicloud.com/intl/en-us/product/css.html.
-
--  We also offer Data Lake Governance Center (DGC), a big data
-   application development and operations platform. On this platform,
-   you can perform tasks such as data modeling, script development, job
-   scheduling, data presentation, and O&M and monitoring. DGC makes it
-   much easier to use big data and build a big data processing center.
-   Only operated data delivers value and raises revenue. For details,
-   visit https://www.huaweicloud.com/intl/en-us/product/dayu.html.
+As for data computing, we provide different components for different
+scenarios. You can use Data Ingestion Service (DIS) for stream
+processing, MapReduce Service (MRS) or Data Lake Insight (DLI) for
+offline batch processing, CloudTable for real-time query,
+GaussDB(DWS) for interactive analysis or BI analysis, and Cloud
+Search Service (CSS) for search.
 
 Big data analysis results can be used for enterprise management,
 including report analysis, OLAP analysis, track mining, and user

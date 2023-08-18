@@ -1,7 +1,7 @@
 Rearchitect
 ~~~~~~~~~~~
 
-Rearchitecting, also called "application refactoring", involves
+Rearchitecting, also called **application refactoring**, involves
 re-imagining how an application is designed and developed, typically
 using cloud-native features, such as transitioning from monolith to
 microservices. This is typically driven by a strong need to add
@@ -80,7 +80,7 @@ Application Reconstruction
 Application reconstruction involves microservices, containers, and
 DevOps processes:
 
--  Microservice-based reconstruction includes but is not limited to
+-  Microservice-based reconstruction includes, but is not limited to,
    analyzing the current architecture, in-depth involvement of various
    business departments, dividing microservices based on required
    capabilities, defining interfaces between services, formulating
@@ -114,6 +114,11 @@ Application reconstruction can bring the following benefits:
    databases, and middleware are deployed in multiple AZs. Traffic is
    distributed through ELB. The underlying data and statuses are
    synchronized, and applications are deployed in active-active HA mode.
+
+.. todo::
+
+   add image of the scale cube
+
 -  Container-based reconstruction: Applications are hosted in fast,
    cost-effective containers that are decoupled from the underlying
    operating systems. K8S-based CCE provides elastic scheduling for

@@ -11,10 +11,11 @@ will take the lead, and organize and arrange personnel from both parties
 to carry out related work in an orderly and efficient manner based on
 the project objectives.
 
-Huawei and the customer need to set up their own project teams based on
-Huawei Cloud experience in migration. The two teams will work together
-during the migration. The following figure shows the structure of the
-recommended migration team.
+T-Systems and the customer, need to set up their own project teams based on
+Open Telekom Cloud's Customers Success Engineers experience in cloud migrations.
+The two teams will work together during the migration.
+
+The following figure shows the structure of the recommended migration team:
 
 .. image:: ../../assets/caf/image49.png
 
@@ -31,7 +32,7 @@ recommended migration team.
 
 -  O&M team: The team creates, manages, and monitors cloud resources.
 
--  Migration and R&D support team (Huawei Cloud): The team processes
+-  Migration and R&D support team (Open Telekom Cloud): The team processes
    escalated technical issues.
 
 -  Development team (customer): The team is responsible for application
@@ -63,7 +64,7 @@ Migration Assurance
    be reported to project members and other stakeholders in the form of
    weekly or daily reports.
 
--  Delivery matrix: A joint project delivery matrix covering Huawei
+-  Delivery matrix: A joint project delivery matrix covering Open Telekom
    Cloud and the customer will be developed.
 
 Testing and Verification
@@ -76,8 +77,8 @@ the cloud environment.
 Service function testing
 ************************
 
-The Huawei project personnel use the cloud resource list to make sure
-all the required resources on Huawei Cloud are enabled. They initialize
+The Open Telekom project personnel use the cloud resource list to make sure
+all the required resources on Open Telekom Cloud are enabled. They initialize
 environment configurations, deploy applications, and migrate some data
 to perform joint commissioning tests. After the environment is deployed,
 customers can use their own test cases to test applications and confirm
@@ -93,17 +94,18 @@ system test environment, the number of concurrent requests is constantly
 increasing for the test program) to obtain system performance KPIs and
 maximum load-bearing capacity.
 
-For performance testing, you can select Cloud Performance Test Service
-(CPTS) from Huawei Cloud, which supports CPTS and JMeter test projects,
-or use third-party pressure test tools.
+For performance testing, you can select JMeter or any other offering that
+supports JMeter test projects or use third-party pressure test tools.
 
-CPTS or JMeter (for simulating user traffic) and TCPCopy or GoReplay
-(for recording or copying real user traffic) are used to perform
-pressure testing on all-link applications on the cloud to check whether
-functions and performance meet requirements.
+.. tip::
+
+    JMeter (for simulating user traffic) and TCPCopy or GoReplay
+    (for recording or copying real user traffic) can be used to perform
+    pressure testing on all-link applications on the cloud to check whether
+    functions and performance meet requirements.
 
 During the test, test records and reports are generated based on the
-monitoring metrics of Huawei Cloud monitoring systems (such as CES, AOM,
+monitoring metrics of Open Telekom Cloud monitoring systems (such as CES, AOM,
 APM) and the customer's monitoring systems as well as application logs.
 
 After the pressure test is complete, the dirty data generated during the
@@ -125,7 +127,7 @@ cloud.
 
 After the final data synchronization is complete and dirty data
 generated during testing is deleted from the target environment on
-Huawei Cloud, service cutovers are started in off-peak hours. Generally,
+Open Telekom Cloud, service cutovers are started in off-peak hours. Generally,
 service cutover can be implemented all at once, or layer by layer.
 
 All at once
@@ -159,11 +161,11 @@ cutover like this requires multiple cutovers, which are
 time-consuming and involve a heavy workload.
 
 Layer-by-layer migration consists of two steps. First, the application
-layer is cut over to Huawei Cloud, but with the service data still being
+layer is cut over to Open Telekom Cloud, but with the service data still being
 read from and written to on the source. After the application layer
 cutover is complete, a data migration or application dual-write is
 performed to synchronize service data from the source to the target on
-Huawei Cloud in real time. After the incremental data migration is
+Open Telekom Cloud in real time. After the incremental data migration is
 complete, the second step, the data layer cutover, will be executed.
 
 Layer-by-layer migration involves cross-cloud database access. The
@@ -254,24 +256,24 @@ resolved to the original IP address, resulting in access exceptions.
 If the domain name is resolved to the original IP address because the
 modification to the domain name resolution record has not taken effect,
 you can deploy Nginx or iptables on the source and use the Nginx HTTP
-proxy or the iptables NAT to forward traffic to Huawei Cloud, achieving
+proxy or the iptables NAT to forward traffic to Open Telekom Cloud, achieving
 seamless switchover of domain name records.
 
 The following uses Nginx HTTP proxy as an example to describe the
 procedure for configuring traffic forwarding:
 
 1. Before the switchover, deploy an Nginx reverse proxy server at the
-   back of the load balancer on the source to forward traffic to Huawei
+   back of the load balancer on the source to forward traffic to Open Telekom
    Cloud ELB.
 2. After the domain name is switched, bind the source domain name and IP
    address to the load balancer.
 3. The load balancer forwards the traffic to the backend Nginx server.
-   The backend Nginx server forward the traffic to the EIP of Huawei
+   The backend Nginx server forward the traffic to the EIP of Open Telekom
    Cloud ELB load balancer over the public network.
 4. (Optional) Deploy traffic monitoring software (for example, ntop) on
    the source Nginx server and view Nginx access logs. If no traffic is
    generated and access logs are not updated, DNS resolution has been
-   switched over to Huawei Cloud.
+   switched over to Open Telekom Cloud.
 5. Delete the load balancer and Nginx proxy server deployed on the
    source.
 

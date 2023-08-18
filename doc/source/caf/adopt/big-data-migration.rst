@@ -3,17 +3,20 @@ Big Data Migration
 
 Big data migration is a part of data migration and complies with the
 cloud migration theory and project management logic. In terms of project
-management, big data migration contains four phases: business survey,
-migration solution design, migration implementation, and migration
-assurance.
+management, a big data migration plan contains **four phases**:
+
+-  Business survey
+-  Migration solution design
+-  Migration implementation
+-  Migration assurance
 
 .. image:: ../../assets/caf/image60.png
 
-Migration Solution Design
+Migration Plan Design
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In the **business survey phase**, the customer is the main party, and
-Huawei is the supporting party. They should work together to conduct the
+T-Systems is the supporting party. They should work together to conduct the
 survey and determine the customer's business status, including:
 
 -  Customer's big data platform and services
@@ -22,7 +25,7 @@ survey and determine the customer's business status, including:
 -  Big data assets, including resources, data, and permission
    configurations
 
-In the **migration solution design phase**, Huawei is the main party,
+In the **migration solution design phase**, T-Systems is the main party,
 and the customer is the supporting party. They should work together to
 design the migration solution and determine the migration content,
 including:
@@ -72,14 +75,14 @@ thousand cores).
 Big Data Migration Tools
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Huawei Cloud provides various migration tools for customers to choose
+Open Telekom Cloud provides various migration tools for customers to choose
 based on the scenario, data source, data volume, and requirements for
 applications' responses to data. Customers can also choose open-source
 or third-party migration tools.
 
 .. image:: ../../assets/caf/image62.png
 
-Huawei Cloud provides the following big data migration tools:
+Open Telekom Cloud provides the following big data migration tools:
 
 CDM
 ***
@@ -95,7 +98,7 @@ visit https://www.huaweicloud.com/intl/en-us/product/cdm.html.
 Kafka MirrorMaker
 *****************
 
-It forwards streaming data to MRS-Kafka on Huawei Cloud in real time. It
+It forwards streaming data to MRS-Kafka on Open Telekom Cloud in real time. It
 is applicable to sequential messages as the consumer group has strict
 requirements on the message sequence.
 
@@ -118,19 +121,19 @@ OMS
 ***
 
 OMS helps you migrate data from the object storage on other clouds to
-OBS on Huawei Cloud.
+OBS on Open Telekom Cloud.
 
 OMS applies to the following scenarios:
 
--  Object migration: When you migrate typical web applications to Huawei
-   Cloud, OMS helps you easily migrate objects to OBS buckets on Huawei
+-  Object migration: When you migrate typical web applications to Open Telekom
+   Cloud, OMS helps you easily migrate objects to OBS buckets on Open Telekom
    Cloud.
 
 -  Cloud disaster recovery: OMS allows you to replicate your objects to
-   OBS buckets on Huawei Cloud for disaster recovery and backup.
+   OBS buckets on Open Telekom Cloud for disaster recovery and backup.
 
 -  Object restoration: OMS allows you to use data backups from other
-   cloud service providers to quickly restore data on Huawei Cloud.
+   cloud service providers to quickly restore data on Open Telekom Cloud.
 
 For details, visit
 https://www.huaweicloud.com/intl/en-us/product/oms.html.

@@ -1,8 +1,8 @@
 Application Migration
 ---------------------
 
-Based on Huawei's successful practices and experience in serving a large
-number of customers, Huawei Cloud had identified four main phases in the
+Based on T-Systems' successful practices and experience in serving a large
+number of customers, Open Telekom Cloud had identified four main phases in the
 migration process. An understanding of these four phases makes it easier
 to ensure a smooth migration.
 
@@ -33,7 +33,7 @@ Phase 2: Migration planning
 ***************************
 
 Based on the information collected in
-Phase 1, assess applications using the 6R model (Rehost, Replatform,
+Phase 1, assess applications using the **6R model** (Rehost, Replatform,
 Refactor/Rearchitect, Repurchase, Retire, and Retain) and following
 the general principles described here. Analyze application readiness
 and benefits and identify proper migration paths.
