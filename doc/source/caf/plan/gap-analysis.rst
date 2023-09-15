@@ -3,13 +3,13 @@ Gap Analysis
 
 Before formulating your Cloud migration strategy:
 
--  Review the current accounts, special requirements, key issues and challenges of the current IT systems.
--  Identify new possible requirements for future service evolution.
--  Define the key cloud adoption objectives as required.
+-  **Review** the current accounts, special requirements, key issues and challenges of the current IT systems.
+-  **Identify** new possible requirements for future service evolution.
+-  **Define** the key cloud adoption objectives as required.
 
 To get a complete analysis, refer to the following **Cloud Maturity Assessment Model**:
 
-.. image:: ../../assets/caf/image6.png
+.. image:: ../../assets/caf/image6_1.png
 
 Key gap analysis tasks include:
 

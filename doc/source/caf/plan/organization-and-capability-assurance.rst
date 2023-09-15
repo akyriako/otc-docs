@@ -6,7 +6,7 @@ ensure successful implementation of the cloud strategy and the
 continuous evolution with vitality. The most efficient way is to build a
 centralized governance team.
 
-.. image:: ../../assets/caf/image13.png
+.. image:: ../../assets/caf/image13_1.png
 
 Management
 **********
@@ -37,8 +37,8 @@ sponsorship of the top management. The core elements are as follows:
    responsibilities and collaboration mechanism, and develop a
    decision-making and monitoring mechanism.
 
-CCoE
-****
+Cloud Center of Excellence
+**************************
 
 Cloud Center of Excellence (CCoE) supports the development of cloud
 adoption strategies, assumes architecture responsibilities, selects best
@@ -52,58 +52,63 @@ requires collaboration between business and technical departments.
 
     CCoE **does not** handle routine operations and is not a project management organization.
 
-CCoE includes but not limited to the following roles:
+CCoE includes, but not limited to, the following roles:
 
--  Cloud strategy expert: formulating and breaking down cloud strategies
--  Cloud architecture expert: designing cloud architecture and
+-  **Cloud strategy expert**: formulating and breaking down cloud strategies
+-  **Cloud architecture expert**: designing cloud architecture and
    formulating migration strategies
--  Security compliance expert: planning security cloud services, as well
+-  **Security compliance expert**: planning security cloud services, as well
    as building, verifying, and deploying security policies
--  Business, finance, legal affairs, quality and operation experts
+-  **Business, finance, legal affairs, quality and operation experts**
 
-Service team and Data team
-**************************
+Service team
+************
 
 The cloud Service team is responsible for the following stages:
 
--  Cloud construction: A cloud infrastructure needs to be built. This
+-  **Cloud construction**: A cloud infrastructure needs to be built. This
    includes a PaaS, service enablement platform, DR, and various
    security capabilities. In addition to cloud management functions,
    cloud management needs to be integrated into the overall enterprise
    O&M management system to further build self-service resource
    management and intelligent O&M capabilities.
 
--  Cloud migration: The application team also needs to get involved in
+-  **Cloud migration**: One or more *development teams* also need to get involved in
    the cloud migration process. They will be responsible for developing
    and implementing the cloud migration solution.
 
--  Cloud management: Resources and permissions need to be managed, and
+-  **Cloud management**: Resources and permissions need to be managed, and
    costs on the cloud need to be controlled and optimized. Configuration
    and deployment policies need to be optimized for reliability,
    security, cost, performance, security compliance.
 
+Data team
+*********
+
 The Data team is responsible for the following tasks:
 
--  Data platform setup: A data platform needs to be set up based on
+-  **Data platform setup**: A data platform needs to be set up based on
    cloud service capabilities and it needs to meet industry requirements
    for performance, scalability, cost, reliability, and security.
 
--  Data management: The data, business and cloud service teams need to
+-  **Data management**: The data, business and cloud service teams need to
    work together on data integration, data development, data governance,
    data services, and data security. They need to support data
    requirements, ensure data quality, control data risks, and handle or
    escalate data issues and disputes as need for final decisions.
 
--  Data asset operations: The team needs to conduct internal data
+-  **Data asset operations**: The team needs to conduct internal data
    sharing and exchange, formulate data usage rule and process, monitor
    traffic, and run external data asset monetization operations to
    promote trusted data circulation.
 
-Depending on the organization's needs, the cloud Service team and Data
-team can be deployed together or separately. In the government sector,
-for example, the cloud Service team and the Data team can work together.
-In some enterprises, however, the cloud service team and the data team
-have to work separately.
+.. note::
+
+    Depending on the organization's needs, the cloud Service team and Data
+    team can be deployed *together or separately*. In the government sector,
+    for example, the cloud Service team and the Data team can work together.
+    In some enterprises, however, the cloud service team and the data team
+    have to work separately.
 
 Personnel development plan
 **************************

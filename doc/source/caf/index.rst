@@ -7,11 +7,17 @@ They also need to know the value being brought by the cloud and ensure organizat
 
 Open Telekom Cloud Adoption Framework (OTCAF) aims to:
 
-* Help governments and enterprises that need to go to the cloud clearly define the plan, strategies, methods, and best practices for cloud adoption so that they can systematically prepare for cloud adoption, and govern and manage services on the cloud.
+* Help organizations that need to go to the cloud clearly define the plan, strategies, methods, and best practices for cloud adoption so that they can systematically prepare for cloud adoption, and govern and manage services on the cloud.
 * Help IT, finance, and security teams determine cloud adoption methods and governance to establish required capabilities.
-* Help various roles achieve business objectives, and support governments and enterprises in building digital competitiveness for business success.
+* Help various roles achieve business objectives, and support organizations in building digital competitiveness for business success.
 
-The OTCAF is based on references of customer's own digital transformation strategy, combined with our industry best practices. It is divided into four phases as follows:
+The OTCAF is based on references of our experts, partners and customers collected during
+their own digital transformation journey, combined with our industry best practices.
+It is divided into *four* phases as follows:
+
+.. image:: ../assets/caf/image4_1.png
+
+|
 
 Phase 1: Plan
 +++++++++++++++
@@ -32,7 +38,7 @@ Phase 3: Adopt
 
 Migrate applications and data to the cloud in a proper order, and innovate services on the cloud.
 
-Phase 4: Govern and Manage
+Phase 4: Govern & Manage
 ++++++++++++++++++++++++++
 
 Perform cost management, security compliance and governance, and cloud operation and maintenance (O&M) to ensure cost-effective, efficient, secure, and stable services running on the cloud.
@@ -46,5 +52,19 @@ Let's see these phases one by one:
    ready/index.rst
    adopt/index.rst
    govern-and-manage/index.rst
-   concluding-remarks.rst
+
+Intended Audiences
+++++++++++++++++++
+
+Migrating workloads to the cloud is for any organisation large or small, public or private a very big
+endeavor that requires the support and collaboration of various departments, people and skills. The
+Open Telekom Cloud Adoption Framework is here to guide those heterogeneous stakeholders in every step
+of the road. The audience that could be benefited from using OTCAF are mainly, but not limited to,
+the following:
+
+-  Cloud architects
+-  Business and technology decisions makers
+-  Product owners
+-  Legal and finance
+-  Information technology specialists on various fields (e.g administration, networking, security, governance)
 

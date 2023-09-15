@@ -2,25 +2,26 @@ Cloud Migration Plan and Implementation
 =======================================
 
 Cloud migration is planned and implemented based on the infrastructure,
-technical platform, and key applications on the live network, along with
+technical platform and key applications on the live network, along with
 the cloud migration scope and key capability objectives specified in the
 migration blueprint.
-
-A step-by-step guide to cloud migration
-***************************************
-
-.. image:: ../../assets/caf/image11.png
 
 Our experts have summarized the following four steps based on its experience
 in cloud migration:
 
--  Step 1: Apps improving external user experience
+-  **Step 1**: Apps improving external user experience
 
--  Step 2: Apps improving workplace productivity
+-  **Step 2**: Apps improving workplace productivity
 
--  Step 3: IT apps supporting enterprise core business processes
+-  **Step 3**: IT apps supporting enterprise core business processes
 
--  Step 4: Apps supporting innovation in business and product forms
+-  **Step 4**: Apps supporting innovation in business and product forms
+
+|
+
+.. image:: ../../assets/caf/image11_1.png
+
+|
 
 Cloud migration strategies
 **************************
@@ -55,7 +56,9 @@ Cloud migration strategies
    new ones, such as newly developed SaaS applications or third-party
    SaaS services.
 
-.. image:: ../../assets/caf/image12.png
+|
+
+.. image:: ../../assets/caf/image12_2.png
 
 Cloud migration approach
 ************************

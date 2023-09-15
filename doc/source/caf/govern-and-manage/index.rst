@@ -1,4 +1,4 @@
-Phase 4: Govern and Manage
+Phase 4: Govern & Manage
 ==========================
 
 This section is formulated based on Huawei Cloud's industry experience
