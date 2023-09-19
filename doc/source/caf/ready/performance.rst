@@ -10,11 +10,11 @@ performance trade-off must also be considered.
 Factors that affect the performance of cloud applications
 ****************************************************
 
--  Compute latency: the wait time between operations and a direct reflection of cloud computing performance
--  Network throughput: the rate at which data is processed
--  Transmission throughput (bytes/second or bit/second): a key measure of performance
--  Storage input/output operations per second (IOPS): a measure of data transmission
--  Data concurrency: the ability to run multiple programs at the same time
+-  **Compute latency**: the wait time between operations and a direct reflection of cloud computing performance
+-  **Network throughput**: the rate at which data is processed
+-  **Transmission throughput (bytes/second or bit/second)**: a key measure of performance
+-  **Storage input/output operations per second (IOPS)**: a measure of data transmission
+-  **Data concurrency**: the ability to run multiple programs at the same time
 
 Solution selection
 ******************

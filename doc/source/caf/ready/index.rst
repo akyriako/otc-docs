@@ -5,7 +5,7 @@ To build a highly reliable and available system on the cloud, a
 systematic top-level design framework and unified standards are
 required. Unified planning at the macro level is required to remove
 obstacles to cloud adoption. Based on the industry standards and
-practices, Open Telekom Cloud has developed a landing zone system
+practices, here in Open Telekom Cloud we have developed a landing zone system
 architecture. This architecture is intended to make it easier for
 enterprises to build reliable and systematic capabilities from the
 perspectives of the people, finances, resources, permissions, and

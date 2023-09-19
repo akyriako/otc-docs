@@ -67,7 +67,7 @@ other AZs. There are four types of HA deployments:
 
 -  **Cross-cloud HA**: To meet the requirements for multi-cloud HA of
    some enterprises, Open Telekom Cloud also supports multi-cloud DR
-   deployment. Enterprises can deploy production services on Huawei
+   deployment. Enterprises can deploy production services on Open Telekom
    Cloud and deploy the DR site on a cloud vendor platform.
 
 .. todo::
@@ -78,11 +78,11 @@ Single-AZ HA Solution Design
 
 Solution description and key points of the design:
 
--  Layered service deployment: web access layer, service layer, data
+-  **Layered service deployment**: web access layer, service layer, data
    layer, and management zone
--  Service HA: No single-node deployment, HA deployment (in cluster or
+-  **Service HA**: No single-node deployment, HA deployment (in cluster or
    active/standby mode)
--  Cloud service HA: The selected Huawei Cloud services are deployed in
+-  **Cloud service HA**: The selected Open Telekom Cloud services are deployed in
    the HA mode.
 
 From the perspective of service continuity and data availability, this
@@ -151,18 +151,18 @@ Dual-AZ HA Solution Design
 
 Solution description and key points of the design:
 
--  Service modules: For services supporting cluster deployment,
+-  **Service modules**: For services supporting cluster deployment,
    resources are deployed in two AZs, with the loads balanced using ELB.
    For single-node ECSs, SDRS is used for AZ-level DR.
 -  Cloud service HA: Primary and standby nodes are deployed in different
    AZs.
--  Database synchronization: RDS is used, and RDS DB instances are
+-  **Database synchronization**: RDS is used, and RDS DB instances are
    deployed in primary/standby mode across AZs and the data kept
    synchronized.
--  DR switchover: If an AZ fails, RDS database services automatically
+-  **DR switchover**: If an AZ fails, RDS database services automatically
    switch to the standby databases. Application services can be taken
    over by the DR servers automatically or in just a few clicks.
--  DR drills: Users can perform DR drills with just a few clicks.
+-  **DR drills**: Users can perform DR drills with just a few clicks.
 
 .. image:: ../../assets/caf/image37.png
 
@@ -172,7 +172,7 @@ Two-Site Three-Center (Cross-Region) HA Solution Design
 Solution description and key points of the design:
 
 -  The production centers and DR center are deployed in two different
-   regions of Huawei Cloud.
+   regions of Open Telekom Cloud.
 -  The production centers are deployed in two AZs, and the DR center is
    deployed in one AZ.
 -  RDS DB instances are deployed in both the production centers and DR
@@ -209,7 +209,7 @@ database control, and the collaboration of numerous systems. It requires
 professional skills to build HA DR systems. If customers lack related
 experience and want to quickly build an HA DR system, the Multi-cloud
 high Availability Service (MAS) is a good choice. This service is
-derived from the multi-cloud application HA solution of Huawei consumer
+derived from the multi-cloud application HA solution of Open Telekom Cloud consumer
 services. It provides end-to-end service failover and DR drill
 capabilities that include everything from the traffic ingress and
 application layer, to the data layer. MAS ensures quick service recovery

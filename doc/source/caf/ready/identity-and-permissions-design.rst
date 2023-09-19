@@ -53,6 +53,8 @@ corresponding cloud service access permissions.
 
 .. image:: ../../assets/caf/image28.png
 
+|
+
 To achieve unified management and control, IT functional accounts of
 Landing Zone need to access and manage cloud resources under other
 accounts through cross-account delegation. For example, a security
@@ -64,6 +66,8 @@ switches the role to a service account, and then accesses and manages
 security cloud services under that service account.
 
 .. image:: ../../assets/caf/image29.png
+
+|
 
 Another similar scenario is that the O&M and monitoring account can
 access resources in other accounts through federated authentication and

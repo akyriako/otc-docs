@@ -23,7 +23,7 @@ association. On Open Telekom Cloud, a master account can create organizations
 that match your organizational structure and create new accounts for or
 invite existing ones to the organizations.
 
-2. **Funds managemen**\ t
+2. **Funds management**
 
 A master account can allocate its balance and cash coupons to its member
 accounts for resource provisioning. A member account can use its own

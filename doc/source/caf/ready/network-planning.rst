@@ -3,13 +3,14 @@ Network Planning
 
 An enterprise migration to the cloud requires proper planning of the
 network architecture. You need to review the current status of the data
-center network, design multi-account on the cloud, and plan network on
-the cloud (including VPCs, subnets, and communication between cloud and
-on-premises networks).
+center network and operational model and translate them as multi-account and network design plans on
+the cloud (including VPCs, subnets, and communication between cloud and on-premises networks).
 
+.. todo::
+   remove all references of Huawei in images
 
-Current On-Premises Data Center Network
-'''''''''''''''''''''''''''''''''''''''
+On-Premises Network Review
+''''''''''''''''''''''''''
 
 Review the current status of the on-premises data center network to plan
 for the cloud account and networking.
@@ -23,20 +24,20 @@ for the cloud account and networking.
 
 -  Application system distribution and data flow between services.
 
-Network Multi-Account Design
+Cloud Network Account Design
 ''''''''''''''''''''''''''''
 
 Plan cloud accounts based on the network plan. There are three scenarios
 to consider:
 
--  One account and one VPC: Account management and O&M are easy as there
+-  **One account and one VPC**: Account management and O&M are easy as there
    is a small team but security is low.
 
--  One account, multiple VPCs: Account management is easy and there is
+-  **One account, multiple VPCs**: Account management is easy and there is
    better security. The VPCs are designed for different functions and
    have different access control rules.
 
--  Multiple accounts or primary account and subaccounts, multiple VPCs:
+-  **Multiple accounts or primary account and sub-accounts, multiple VPCs**:
    Account management is more challenging as there is a large team with
    multiple branches and complex services, and meeting security
    requirements can be challenging too. If multiple VPCs are deployed in
@@ -44,18 +45,22 @@ to consider:
    multiple VPCs are deployed in different regions, you can use Cloud
    Connect.
 
-.. tip::
-    The first and second scenarios are simple. They mainly involve VPC and
-    subnet planning. For details, see section "Cloud Networking
-    Planning and Design". The following section will be focused on the third
-    scenario.
+
+The first and second scenarios are *simple*. They mainly involve VPC and
+subnet planning. For details, see section "Cloud Networking
+Planning and Design". **The following section will be focused on the third
+scenario**.
 
 The following figure shows a multiple account, multiple VPC network
 architecture.
 
+|
+
 .. image:: ../../assets/caf/image15.png
 
-At the core of this architecture is the network operations account,
+|
+
+At the core of this architecture is the *network operations account*,
 which serves as a hub to connect different accounts. Its enterprise
 router allows communication between resources of different accounts. The
 enterprise router lets you configure routes to determine which VPCs can
@@ -69,7 +74,7 @@ advised to create three VPCs:
 -  and a test VPC
 
 These VPCs are kept isolated from each other for the
-service system. Each VPC must have at least two subnets: an
+service system. Each VPC must have *at least two subnets*: an
 application subnet and a data subnet. These correspond to,
 respectively, the application layer and data layer of the service
 system. Network ACLs are then used for access control between
@@ -99,13 +104,16 @@ Cloud Networking Planning and Design
    communication on the cloud, O&M network on the cloud, and communication
    between cloud and on-premises networks.
 
-VPC and subnet on the cloud
-***************************
+VPCs and Subnets
+****************
+
+VPC is a virtual private cloud. It is a logical isolated environment that all the networking components
+live, e.g. subnets, security groups, routing tables, gateways etc.
 
 VPCs
 ````
 
--  Each VPC can have up to 5,000 IP addresses.
+-  Each VPC can have **up to** 5,000 IP addresses.
 -  VPCs are isolated by default. Enterprise routers can be used to allow communication between VPCs.
 -  There are O&M VPCs, DMZ VPCs, and service VPCs. Different VPCs are connected through enterprise routers.
 -  Each service VPC belongs to an independent service system or a department. Service systems or departments that do not need to access each other are deployed in different VPCs.

@@ -22,24 +22,26 @@ deployment of service systems.
 
 .. image:: ../../assets/caf/image31.png
 
+|
+
 Related VPC functions:
 
--  Subnet: A subnet is a range of IP addresses in your VPC and provides
+-  **Subnet**: A subnet is a range of IP addresses in your VPC and provides
    IP address management and DNS resolution functions for ECSs in it. By
    default, ECSs in all subnets of the same VPC can communicate with one
    another, but ECSs in different VPCs cannot.
--  Network ACL: A network ACL allows you to create rules to control
+-  **Network ACL**: A network ACL allows you to create rules to control
    traffic in and out of one or more subnets.
--  Security group: A security group is a collection of access control
+-  **Security group**: A security group is a collection of access control
    rules for ECSs that have the same security protection requirements
    and that are mutually trusted within a VPC. You can define access
    rules for ECSs in a security group and between security groups.
--  VPN: A VPN is used to establish a secure and encrypted communication
+-  **VPN**: A VPN is used to establish a secure and encrypted communication
    channel between remote users and a VPC, allowing remote users to use
    resources in the VPC. By default, ECSs in a VPC cannot communicate
    with user data centers or private networks. To enable the
    communication, you can use VPN.
--  Direct Connect: Direct Connect is a private line that connects
+-  **Direct Connect**: Direct Connect is a private line that connects
    on-premises data center to the cloud. Users can use Direct Connect to
    connect its on-premises data centers, offices, or hosting areas to
    the cloud, reducing network latency and obtaining a faster and more
@@ -47,6 +49,9 @@ Related VPC functions:
 
 Host security
 *************
+
+.. warning::
+   this doesnt exist in OTC
 
 Host Security Service
 `````````````````````
@@ -110,6 +115,9 @@ Data security
 Data Encryption Workshop
 ````````````````````````
 
+.. warning::
+   I see DEW everywhere in the documentation but I cannot find anything relevant in Console
+
 On the public cloud, Data Encryption Workshop (DEW) has been integrated
 into multiple cloud services, such as EVS, OBS, and SFS. You can take
 advantage of DEW APIs to develop your own encryption applications.
@@ -145,6 +153,10 @@ performed by individual users.
 Cloud Bastion Host
 ``````````````````
 
+.. warning::
+   CBH doesnt exists in OTC services, although there is a reference once
+   in the documentation. Should we provide a solution in Terraform instead ?
+
 Cloud Bastion Host (CBH) has various functional modules, such as
 department, user, resource, policy, operation, and audit modules. It
 integrates features such as single sign-on (SSO), unified asset
@@ -163,23 +175,23 @@ security compliance requirements of countries, industries, and
 enterprises after cloud migration, Landing Zone provides the following
 security compliance measures:
 
--  Separation of duty (SOD): A multi-account architecture is used for
+-  **Separation of duty (SoD)**: A multi-account architecture is used for
    SOD. Each account is an SOD unit. An enterprise can group accounts
    based on service units, geographic units, and functional units. The
    loss of any account does not affect the system as a whole, limiting
    the impact radius.
 
--  Operation audits: Operation audits are enabled for each account so
+-  **Operation audits**: Operation audits are enabled for each account so
    anytime a resource is accessed by any entity, that activity is
    logged. All operations can be tracked. Audit logs of all accounts are
    centrally stored and analyzed.
 
--  Configuration change tracking: Resource configuration recording is
+-  **Configuration change tracking**: Resource configuration recording is
    enabled for each account to log any resource configuration changes.
    All resource changes can be tracked. Change logs are centrally stored
    and analyzed.
 
--  Security guardrail: There are two types of security guardrails. They
+-  **Security guardrails**: There are two types of security guardrails. They
    are security redlines and security baselines. Security redlines, also
    called preventive security guardrails, forcibly restrict the
    permissions of member accounts to avoid security risks caused by
@@ -188,12 +200,14 @@ security compliance measures:
    also called detection security guardrails, require that member
    accounts meet basic security compliance requirements. For example,
    MFA must be enabled for the root user and EVS disks must be
-   encrypted. For details about the complete security baseline check
-   items, see the Open Telekom Cloud official website:
+   encrypted.
 
-https://support.huaweicloud.com/intl/en-us/usermanual-sa/sa_01_0021.html
+.. note::
 
--  Unified identity and permissions management: Users, user groups, and
+    For details about the **complete security baseline check
+    items**, see the Open Telekom Cloud official website: https://support.huaweicloud.com/intl/en-us/usermanual-sa/sa_01_0021.html
+
+-  **Unified identity and permissions management**: Users, user groups, and
    permissions in a multi-account environment are centrally managed to
    enable a user to access resources under multiple accounts. Unified
    identity and permissions management reduces the workload of
@@ -201,7 +215,7 @@ https://support.huaweicloud.com/intl/en-us/usermanual-sa/sa_01_0021.html
    implementation of unified permissions standards within an enterprise,
    reducing security risks caused by improper permissions assignment.
 
--  Unified security control: Security events and risks in a
+-  **Unified security control**: Security events and risks in a
    multi-account environment are identified, processed, and analyzed,
    and events are responded to and handled centrally. Unified security
    control reduces the workload involved in security control and

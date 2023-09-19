@@ -57,6 +57,8 @@ Scalable Solution Design
 
 .. image:: ../../assets/caf/image39.png
 
+|
+
 Scalable capabilities can be designed by layer. The preceding figure
 shows the scalability of Open Telekom Cloud services at different levels. The
 scalable design of each layer is as follows:
@@ -84,6 +86,10 @@ scalable design of each layer is as follows:
    in a cluster. With the increase of database services, the DDM cluster
    specifications can be smoothly expanded to cope with more database
    processing.
+
+.. todo::
+
+   DDM exists in OTC? I can find traces in documentation although they are empty
 
 -  **Database layer:** Open Telekom Cloud Relational Database Service (RDS)
    supports smooth expansion of read-only database instances for

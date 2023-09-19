@@ -6,7 +6,7 @@ service quality, execution efficiency, and cost-effectiveness are
 becoming more widely recognized and accepted by enterprises. More and
 more enterprises are gradually migrating their application systems to
 the cloud and preferentially developing future-oriented, cloud-native
-application systems. An era of cloudi`fication is coming. However, in
+application systems. An era of cloudification is coming. However, in
 practice, the following challenges are often encountered:
 
 1. How to isolate the security and faults of service units (such as BGs,
@@ -41,20 +41,20 @@ where multiple accounts can share resources and there is unified
 management of the people, finances, resources, permissions, and security
 compliance.
 
--  People: Unified management of service units, accounts, users, user
+-  **People**: Unified management of service units, accounts, users, user
    groups, and roles for multiple accounts
 
--  Finances: Unified management of funds, budgets, costs, invoices, and
+-  **Finances**: Unified management of funds, budgets, costs, invoices, and
    discounts for multiple accounts
 
--  Resources: Unified O&M, monitoring, and management of cloud resources
+-  **Resources**: Unified O&M, monitoring, and management of cloud resources
    including computing, storage, network, data, and applications for
    multiple accounts
 
--  Permissions: Unified management of permissions for cloud resources of
+-  **Permissions**: Unified management of permissions for cloud resources of
    multiple accounts based on the principle of least privilege (PoLP)
 
--  Security compliance: Unified management of security compliance in
+-  **Security compliance**: Unified management of security compliance in
    accordance with the security compliance requirements of countries,
    industries, and enterprises
 

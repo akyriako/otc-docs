@@ -12,7 +12,9 @@ will describe the five aspects of architecture design that affect
 service continuity the most: high availability (HA), scalability,
 performance, security, and cost.
 
-.. image:: ../../assets/caf/image35.png
+.. image:: ../../assets/caf/image35_1.png
+
+|
 
 .. toctree::
    :maxdepth: 1

@@ -72,10 +72,11 @@ security:
    network monitoring, centralized log audit, and security event
    awareness
 
-The following figure shows the security architecture on the cloud. For
-details, see section "‎3.2.2.5 Security".
+The following figure shows the security architecture on the cloud:
 
 .. image:: ../../assets/caf/image40.png
+
+|
 
 Abbreviations:
 
